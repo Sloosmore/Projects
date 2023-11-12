@@ -1,0 +1,21 @@
+html,
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.img_grid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.reduce {
+  height: auto;
+}
+
+.pad_text {
+  padding: 20px 0px 0px 70px;
+  color: black;
+}

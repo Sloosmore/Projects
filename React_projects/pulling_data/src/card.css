@@ -1,0 +1,42 @@
+body {
+  color: gray;
+}
+
+.card {
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.card > div:first-child {
+  position: relative;
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.star {
+  width: 15px;
+  display: inline;
+}
+
+.rating {
+  margin-left: 10px;
+  display: inline;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+}
+
+.card_img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}

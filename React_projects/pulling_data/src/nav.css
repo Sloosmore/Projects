@@ -11,3 +11,8 @@
   height: 30px;
   padding: 25px 0px 20px 30px;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
