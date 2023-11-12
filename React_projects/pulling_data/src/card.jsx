@@ -9,13 +9,13 @@ function Card() {
         <img src={mountian_bike} alt="" className="card_img" />
         <p className="tag">Sold out</p>
       </div>
-      <div>
+      <div className="caption">
         <div className="rate">
           <img src={star} alt="" className="star" />
           <p className="rating">5.0 &#40;6&#41; USA</p>
         </div>
-        <p>Group Mountain Biking</p>
-        <p>
+        <p className="disc">Group Mountain Biking</p>
+        <p className="price">
           <strong>From $50</strong> / person
         </p>
       </div>

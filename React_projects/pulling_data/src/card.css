@@ -22,21 +22,36 @@ body {
 
 .star {
   width: 15px;
-  display: inline;
+  display: inline-block; /* Change to inline-block */
+  margin-bottom: 0px;
 }
 
 .rating {
   margin-left: 10px;
-  display: inline;
+  display: inline-block; /* Change to inline-block */
+  margin-bottom: 1px;
+  margin-top: 1px;
 }
 
 .rate {
   display: flex;
   align-items: center;
+  margin-bottom: 1px; /* Adjust this value as needed */
+  margin-top: 1px;
 }
 
 .card_img {
   width: 300px;
   height: auto;
   object-fit: cover;
+}
+.disc {
+  margin: 0px 0px 0px 0px;
+}
+.price {
+  margin: 3px 0px 0px 0px;
+}
+
+.caption {
+  font-size: medium;
 }
